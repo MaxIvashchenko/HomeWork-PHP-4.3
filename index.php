@@ -1,8 +1,8 @@
 <?php
 session_start(); 
-$username = 'root';
-$password = '';
-$pdo = new PDO('mysql:host=localhost;dbname=test;charset=utf8', $username, $password);
+$username = 'mivaschenko';
+$password = 'neto1797';
+$pdo = new PDO('mysql:host=localhost;dbname=mivaschenko;charset=utf8', $username, $password);
 if(!empty($_POST)) {
     $login = ($_POST['login']);
     $password = ($_POST['password']);
